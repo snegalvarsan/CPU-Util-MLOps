@@ -24,6 +24,9 @@ This script performs the following:
 * Deploys the Kubernetes dashboard
 * Sets up and deploys the MLOps monitoring services
 
+![image](https://github.com/user-attachments/assets/3f6a0b67-95c5-487a-be37-de127be2b845)
+![image](https://github.com/user-attachments/assets/eba77f32-5b2e-4ff9-997d-a013798b1813)
+
 ## Prerequisites
 
 * Ubuntu-based OS (Tested on Ubuntu 20.04+)
@@ -31,3 +34,5 @@ This script performs the following:
 * Internet connection for downloading packages.
 
 Feel free to contribute or raise issues!
+
+
