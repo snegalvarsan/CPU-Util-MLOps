@@ -28,6 +28,6 @@ This script performs the following:
 
 * Ubuntu-based OS (Tested on Ubuntu 20.04+)
 * Root/sudo access
-* Internet connection for downloading packages
+* Internet connection for downloading packages.
 
 Feel free to contribute or raise issues!
