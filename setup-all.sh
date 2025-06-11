@@ -2,20 +2,21 @@
 
 SLEEP_TIME=20
 
+REPOSITORY_NAME=CPU-Util-MLOps
 general_setup(){
- sh $HOME/installation-setup.sh
- sh $HOME/kubernetes-installation.sh
- cd $HOME/MLopsDir/PostgresContainer/
+ sh $HOME/$REPOSITORY_NAME/installation-setup.sh
+ sh $HOME/$REPOSITORY_NAME/kubernetes-installation.sh
+ cd $HOME/$REPOSITORY_NAME/MLopsDir/PostgresContainer/
  sudo docker compose up -d
- cd $HOME/MLopsDir/Flask-App
+ cd $HOME/$REPOSITORY_NAME/MLopsDir/Flask-App
  sudo docker compose up -d
  sleep $SLEEP_TIME
  sudo docker compose down
 }
 
 deployment(){
- cd $HOME
- sh $HOME/deploy.sh
+ cd $HOME/$REPOSITORY_NAME
+ sh $HOME/$REPOSITORY_NAME/deploy.sh
 }
 
 kubectl_commands(){
